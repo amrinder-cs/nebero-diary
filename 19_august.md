@@ -1,4 +1,4 @@
-\Monday 19 August 2024 05:53:28 PM IST
+Monday 19 August 2024
 # Nat Punching using natpunchgo
 
 Nat punching is used for UDP communication between two devices behind NAT and in different networks.
