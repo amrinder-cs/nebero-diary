@@ -1,4 +1,4 @@
-Monday 19 August 2024 05:53:28 PM IST
+\Monday 19 August 2024 05:53:28 PM IST
 # Nat Punching using natpunchgo
 
 Nat punching is used for UDP communication between two devices behind NAT and in different networks.
@@ -264,4 +264,4 @@ Nmap done: 1 IP address (1 host up) scanned in 0.67 seconds
 ```
 
 
-The abovoe nmap logs tells us that both of the clients are able to see each other's open UDP ports, however they seem filtered.
+The above nmap logs tells us that both of the clients are able to see each other's open UDP ports, however they seem filtered.
