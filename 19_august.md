@@ -44,7 +44,11 @@ Nat punching requires one server and 2 'clients' which connect to the server. Th
 	- Actual Outocome:
 		- Both clients being able to connect to the server however unable to discover each other.
 - Logs of the errors encountered:
+
+
 From server:
+
+
 ```
 → ./server 1234 sL4JBoo4Y4vAq3J6vdXakuJatySvvOVIgACj081WT2k=
 Starting nat-punching server on port 1234
@@ -127,6 +131,8 @@ Resolving 1 peers
 - Logs of above:
 
 Server:
+
+
 ```
 (10:05:35) _ [user@nebero] ~/.../natpunch-go/server (master ?:3 _) 
 _ ./server 1234 sL4JBoo4Y4vAq3J6vdXakuJatySvvOVIgACj081WT2k=
@@ -167,6 +173,8 @@ g2kX+NzXd8f3b/jg ==> pJrGu8GakllEFD+f: CONNECTED
 
 
 Client running on the server itself:
+
+
 ```
 (10:06:10) ± [user@nebero] ~/.../natpunch-go/server (master ?:3 ✗) 
 → sudo ../client/client wg0 10.66.66.1:1234 BZ4de/xfnpwDAemiZ6SxVHINjm/dpR5qTFJkFSadUUw=
@@ -178,6 +186,7 @@ Resolved 2 peers
 ```
 
 Client 1:
+
 
 ```
 ┌─[root][alpine1][~/natpunch-go/client]
@@ -204,6 +213,7 @@ Resolved 1 peer
 
 client 2:
 
+
 ```
 [root@alpine2 client]# ./client wg0 10.66.66.1:1234 BZ4de/xfnpwDAemiZ6SxVHINjm/dpR5qTFJkFSadUUw=
 Resolving 1 peers
@@ -229,6 +239,8 @@ Resolved 1 peer
 ### Nmap results after above:
 
 From client 1:
+
+
 ```
 ...
 ...
@@ -249,6 +261,8 @@ Nmap done: 1 IP address (1 host up) scanned in 0.55 seconds
 ```
 
 From client 2:
+
+
 ```
 [root@alpine2 client]# nmap -sU -p 56460 10.66.66.2
 Starting Nmap 7.95 ( https://nmap.org ) at 2024-08-20 10:10 IST
