@@ -50,7 +50,7 @@ and it runs the tests.
 
 Here's how the output of that command looks like:
 
-![php artisan test](laravel_test.php)
+![php artisan test](laravel_test.png)
 
 
 # HTTP tests
