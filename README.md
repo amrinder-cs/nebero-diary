@@ -10,6 +10,8 @@
 
 [13th August](https://amrinder-cs.github.io/nebero-diary/13_august)
 
+[14th August](https://amrinder-cs.github.io/nebero-diary/14_august)
+
 [19th August](https://amrinder-cs.github.io/nebero-diary/19_august)
 
 [21st August](https://amrinder-cs.github.io/nebero-diary/21_august)
