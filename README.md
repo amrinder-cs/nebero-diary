@@ -2,16 +2,16 @@
 
 
 
-[8th August](https://amrinder-cs.github.io/nebero-diary/8_august)
+[8th August](https://amrinder-cs.github.io/nebero-diary/8_august) - Setting up GitLabs for CI/CD
 
-[9th August](https://amrinder-cs.github.io/nebero-diary/9_august)
+[9th August](https://amrinder-cs.github.io/nebero-diary/9_august) - Learning PHP basics
 
-[12th August](https://amrinder-cs.github.io/nebero-diary/12_august)
+[12th August](https://amrinder-cs.github.io/nebero-diary/12_august) - PHP dependency management
 
-[13th August](https://amrinder-cs.github.io/nebero-diary/13_august)
+[13th August](https://amrinder-cs.github.io/nebero-diary/13_august) - Learning basics of Laravel
 
-[14th August](https://amrinder-cs.github.io/nebero-diary/14_august)
+[14th August](https://amrinder-cs.github.io/nebero-diary/14_august) - Laravel Testing
 
-[19th August](https://amrinder-cs.github.io/nebero-diary/19_august)
+[19th August](https://amrinder-cs.github.io/nebero-diary/19_august) - Punching holes through NAT for peer to peer connections without opening ports
 
-[21st August](https://amrinder-cs.github.io/nebero-diary/21_august)
+[21st August](https://amrinder-cs.github.io/nebero-diary/21_august) - Self hosting and setting up Netbird, a Peer to Peer VPN.
