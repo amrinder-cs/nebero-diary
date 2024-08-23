@@ -15,3 +15,5 @@
 [19th August](https://amrinder-cs.github.io/nebero-diary/19_august) - Punching holes through NAT for peer to peer connections without opening ports
 
 [21st August](https://amrinder-cs.github.io/nebero-diary/21_august) - Self hosting and setting up Netbird, a Peer to Peer VPN.
+
+[23st August](https://amrinder-cs.github.io/nebero-diary/23_august) - Simulating a router/firewall using my laptop.
