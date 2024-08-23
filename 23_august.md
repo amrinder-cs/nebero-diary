@@ -96,3 +96,49 @@ I visited google.com, and it worked.
 # SUCCESS.
 
 ![Google running inside a TUI browser](google_in_lynx.png)
+
+
+# The "Im-possible" task
+
+I realized what we wanted would not be so easy because.. every OS caches the DNS, so once the IP would be cached, we would not know which website a host was connecting to, since DNS was already resolved.
+Furthermore it would complicate things more if some host was using a custom DNS (such as google DNS)
+
+Solution to that custom DNS would be to simply intercept their DNS request (funny right?) since DNS by default is unencrypted. Very funny indeed.
+
+Anyhow, that would not be the case if someone was hosting the DNS on their own machine and using DNS over HTTPS.
+
+Theoretically the task now seemed impossible, except my theoretical knowledge wasn't complete. So that's what i went to expand.
+
+[So i came accross this article](https://dev.to/ashevelyov/the-step-by-step-journey-of-a-network-request-1d10)
+
+It tells us the full lifecycle of a request over https. It mentions a ClientHello.
+
+It is funny to hear about after using internet for so long, the ClientHello is UNENCRYPTED!
+
+I don't understand how everyone is OK with it in the networking industry, you are making custom DNS, DNS over HTTPS to protect yourself from the prying eyes of the ISP, AND YET, the ISP can see what site you are visiting without even trying, in plain text. 1 request at a time.
+
+Anyhow, to explain how it works.
+
+Before the TLS handshake can happen, a client sends a hello request to the server which contains the hostname, in plaintext, since the connection has not been made yet.
+
+That Hello message can be intercepted by our firewall to know which website is being visited.
+
+Here's the practical proof of this in wireshark:
+
+![UNENCRYPTED CLIENT HELLO](client_hello.png)
+
+
+
+Then i searched for tools which can analyse the traffic based on the client hello.
+
+If i had a nickle for each software which uses clienthello for network analysis, i would have 2 nickels, which is not a lot but i should have about 100 in this era. 
+
+Anyhow, These are the tools which do it:
+
+[Zeek](https://github.com/zeek/zeek)
+
+[Suricata](https://github.com/OISF/suricata)
+
+
+after some consultation with my mentor, i decided to explore Zeek.
+
