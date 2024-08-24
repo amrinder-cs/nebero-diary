@@ -12,7 +12,7 @@
 
 [14th August](https://amrinder-cs.github.io/nebero-diary/14_august) - Laravel Testing
 
-[19th August](https://amrinder-cs.github.io/nebero-diary/19_august) - Punching holes through NAT for peer to peer connections without opening ports
+[19th August](https://amrinder-cs.github.io/nebero-diary/19_august) - ❌ [Failed] Punching holes through NAT for peer to peer connections without opening ports
 
 [21st August](https://amrinder-cs.github.io/nebero-diary/21_august) - Self hosting and setting up Netbird, a Peer to Peer VPN.
 
