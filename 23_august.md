@@ -15,7 +15,7 @@ So first task was to set those both devices back from NAT to bridge.
 Here's the basic difference between NAT and Bridge:
 
 
-![Bridge vs NAT png shamelessly stolen from the first search result on google](bridged-vs-nat.png)
+![Bridge vs NAT png shamelessly stolen from the first search result on google](https://nebero.amrinder-singh.me/bridged-vs-nat.png)
 
 I set up the networking mode from NAT to Bridge in my virtual machine however, it was not able to get the IP address from the router.
 
@@ -95,7 +95,7 @@ I visited google.com, and it worked.
 
 # SUCCESS.
 
-![Google running inside a TUI browser](google_in_lynx.png)
+![Google running inside a TUI browser](https://nebero.amrinder-singh.me/google_in_lynx.png)
 
 
 # The "Im-possible" task
@@ -125,7 +125,7 @@ That Hello message can be intercepted by our firewall to know which website is b
 
 Here's the practical proof of this in wireshark:
 
-![UNENCRYPTED CLIENT HELLO](client_hello.png)
+![UNENCRYPTED CLIENT HELLO](https://nebero.amrinder-singh.me/client_hello.png)
 
 
 

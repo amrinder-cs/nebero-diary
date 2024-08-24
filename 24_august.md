@@ -84,7 +84,7 @@ Anyhow, i setup the correct interface and pinged the host, it worked. Next thing
 This is how you do it:
 
 
-![How to add routes in netbird](netbird_routes.png)
+![How to add routes in netbird](https://nebero.amrinder-singh.me/netbird_routes.png)
 
 
 I tried pinging my device from another connected with the same wireguard network, it was able to ping and i was able to access services running on the firewall.
@@ -99,12 +99,12 @@ then we "Add Policy"
 
 This is how we manage it:
 
-![Netbird Access Policies](netbird_access_policies.png)
+![Netbird Access Policies](https://nebero.amrinder-singh.me/netbird_access_policies.png)
 
 We can add posture checks if necessary, they are self explanatory:
 
 
-![Netbird Posture Checks](netbird_posture_checks.png)
+![Netbird Posture Checks](https://nebero.amrinder-singh.me/netbird_posture_checks.png)
 
 
 ❗❗❗ Remember to disable the default policy, because without it all the other policies would be useless
@@ -114,6 +114,6 @@ You can add peers to those groups via the admin console. Click peers and click o
 
 
 
-![Editing Groups Peers](edit_peer_groups.png)
+![Editing Groups Peers](https://nebero.amrinder-singh.me/edit_peer_groups.png)
 
 Now only the peers which are assigned particular group can see the others, depending on the policy.
