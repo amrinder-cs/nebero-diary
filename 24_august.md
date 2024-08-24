@@ -90,3 +90,30 @@ This is how you do it:
 I tried pinging my device from another connected with the same wireguard network, it was able to ping and i was able to access services running on the firewall.
 
 
+
+
+# Network Policies
+
+Se needed to have different groups which would be allowed to connect different peers. For that we go to {netbird_domain}/access-control and disable the default policy.
+then we "Add Policy"
+
+This is how we manage it:
+
+![Netbird Access Policies](netbird_access_policies.png)
+
+We can add posture checks if necessary, they are self explanatory:
+
+
+![Netbird Posture Checks](netbird_posture_checks.png)
+
+
+❗❗❗ Remember to disable the default policy, because without it all the other policies would be useless
+
+
+You can add peers to those groups via the admin console. Click peers and click on the peer you want to assign groups to. This way:
+
+
+
+![Editing Groups Peers](edit_peer_groups.png)
+
+Now only the peers which are assigned particular group can see the others, depending on the policy.
