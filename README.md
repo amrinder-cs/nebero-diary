@@ -19,3 +19,5 @@
 [23st August](https://amrinder-cs.github.io/nebero-diary/23_august) - Simulating a router/firewall using my laptop.
 
 [24st August](https://amrinder-cs.github.io/nebero-diary/24_august) - Routing a physical firewall traffic through wireguard mesh network
+
+[26st August](https://amrinder-cs.github.io/nebero-diary/26_august) - Extracting SNI headers from ClientHello packets using C++
