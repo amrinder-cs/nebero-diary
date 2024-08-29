@@ -25,6 +25,7 @@ This code gave us the server name:
 <details>
 <summary>Click to expand code</summary>
 
+
 ```cpp
 void parse_client_hello(const u_char *tls_data, size_t length) {
     size_t offset = 0;
@@ -196,6 +197,8 @@ void parse_client_hello(const u_char *tls_data, size_t length) {
 }
 
 ```
+
+
 
 </details>
 
