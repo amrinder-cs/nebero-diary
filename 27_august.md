@@ -22,9 +22,6 @@ It was a laborous task so we took some help from our robot friends, anyhow this 
 
 This code gave us the server name:
 
-<details>
-<summary>Click to expand code</summary>
-
 
 ```cpp
 void parse_client_hello(const u_char *tls_data, size_t length) {
@@ -200,7 +197,6 @@ void parse_client_hello(const u_char *tls_data, size_t length) {
 
 
 
-</details>
 
 
 
@@ -232,6 +228,7 @@ private:
 
 
 here's the methods:
+
 
 ```cpp
 #include "DatabaseManager.h"
