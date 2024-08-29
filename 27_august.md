@@ -201,3 +201,76 @@ void parse_client_hello(const u_char *tls_data, size_t length) {
 
 
 
+
+# Connecting to database
+
+
+Next we created a constant connection to our postgres database, so we don't have delays while opening and closing the connection.
+This allows us to update the database realtime as the data comes, and it frees up the memory quicker.
+
+
+this is the class:
+
+```cpp
+
+#include <pqxx/pqxx>
+#include <string>
+
+class DatabaseManager {
+public:
+    DatabaseManager(const std::string& connection_string);
+    void executeQuery(const std::string& query);
+
+private:
+    std::unique_ptr<pqxx::connection> connection_;
+};
+
+```
+
+
+here's the methods:
+
+```cpp
+#include "DatabaseManager.h"
+#include <iostream>
+#include <stdexcept>
+
+DatabaseManager::DatabaseManager(const std::string& connection_string) {
+    try {
+        connection_ = std::make_unique<pqxx::connection>(connection_string);
+        if (!connection_->is_open()) {
+            throw std::runtime_error("Can't open database");
+        }
+    } catch (const std::exception& e) {
+        std::cerr << e.what() << std::endl;
+        throw;
+    }
+}
+
+void DatabaseManager::executeQuery(const std::string& query) {
+    try {
+        pqxx::work txn(*connection_);
+        txn.exec(query);
+        txn.commit();
+    } catch (const std::exception& e) {
+        std::cerr << e.what() << std::endl;
+        throw;
+    }
+}
+
+```
+
+
+Usage:
+
+```cpp
+int main() {
+    DatabaseManager db_manager("dbname=test user=postgres password=Nebero123 hostaddr=127.0.0.1 port=5432");
+
+ db_manager.executeQuery("SELECT 1");
+return 0;
+}
+```
+
+
+

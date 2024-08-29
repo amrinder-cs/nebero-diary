@@ -21,3 +21,7 @@
 [24st August](https://amrinder-cs.github.io/nebero-diary/24_august) - Routing a physical firewall traffic through wireguard mesh network
 
 [26st August](https://amrinder-cs.github.io/nebero-diary/26_august) - Extracting SNI headers from ClientHello packets using C++
+
+[27st August](https://amrinder-cs.github.io/nebero-diary/27_august) - Getting the server name from the TCP ClientHello packets and connecting to database
+
+[28st August](https://amrinder-cs.github.io/nebero-diary/28_august) - Adding connection terminate conditions and refactoring the code, plus adding a Makefile
