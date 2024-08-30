@@ -16,25 +16,7 @@ Here's how fin and ACK are set:
 ![FIN_ACK](fin_ack.png)
 
 
-Either it resets or it closes gracefully, we only care about flushing amount of data transferred when it shuts down to the database, hence:
-
-```cpp
-        if (tcp_flags & TH_FIN || tcp_flags & TH_RST) {
-            // std::cout << (fwd_connection?"Forward":"Backward") << " connection ended for: " << src_ip << ":" << src_port << "->" << dst_ip << ":" << dst_port << std::endl;
-            if(fwd_connection) {
-                printConnectionInfo(src_ip, src_port, dst_ip, &db_manager);
-                deleteConnectionInfo(src_ip, src_port, dst_ip);
-            } else {
-                printConnectionInfo(dst_ip, dst_port, src_ip, &db_manager);
-                deleteConnectionInfo(dst_ip, dst_port, src_ip);
-            }
-        }
-```
-
-We print the connection information, when it closes while simeltaneously updating it in the database, and then we delete the connection information from the memory so it frees the memory for us.
-
-
-
+Either it resets or it closes gracefully, we only care about flushing amount of data transferred when it shuts down to the database.
 I realized the code had reached about 350 lines, and it would only grow. So instead of having just one file, i decided to split it into multiple files.
 
 
