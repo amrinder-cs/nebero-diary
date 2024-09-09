@@ -25,3 +25,7 @@
 [27st August](https://amrinder-cs.github.io/nebero-diary/27_august) - Getting the server name from the TCP ClientHello packets and connecting to database
 
 [28st August](https://amrinder-cs.github.io/nebero-diary/28_august) - Adding connection terminate conditions and refactoring the code, plus adding a Makefile
+
+[29st August](https://amrinder-cs.github.io/nebero-diary/29_august) - Changing the database from postgresql to mysql and compiling on ARM version of linux
+
+
