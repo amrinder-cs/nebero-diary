@@ -28,4 +28,4 @@
 
 [29st August](https://amrinder-cs.github.io/nebero-diary/29_august) - Changing the database from postgresql to mysql and compiling on ARM version of linux
 
-
+[2nd September](https://amrinder-cs.github.io/nebero-diary/2_september) - Setting up ARM virtual machine in QEMU
