@@ -48,10 +48,6 @@
 
 [13th September](https://amrinder-cs.github.io/nebero-diary/13_september) - TODO
 
-[14th September](https://amrinder-cs.github.io/nebero-diary/14_september) - TODO
-
-[15th September](https://amrinder-cs.github.io/nebero-diary/15_september) - TODO
-
 [16th September](https://amrinder-cs.github.io/nebero-diary/16_september) - TODO
 
 [17th September](https://amrinder-cs.github.io/nebero-diary/17_september) - TODO
