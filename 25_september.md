@@ -81,6 +81,8 @@ and debug mode is on.
 
 # Sources
 
+[Postfix basic configuration](https://www.postfix.org/BASIC_CONFIGURATION_README.html)
+
 [DNSBL (DNS Black List)](https://www.zytrax.com/books/dns/ch9/dnsbl.html)
 
 [DNS Resource Records (RRs)](https://www.zytrax.com/books/dns/ch8/#zone)
