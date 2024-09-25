@@ -57,3 +57,5 @@
 [19th September](https://amrinder-cs.github.io/nebero-diary/19_september) - TODO
 
 [20th September](https://amrinder-cs.github.io/nebero-diary/20_september) - TODO
+
+[25th September](https://amrinder-cs.github.io/nebero-diary/25_september) - Whitelisting domains in postfix mailserver
