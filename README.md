@@ -43,16 +43,15 @@
 [10th September](https://amrinder-cs.github.io/nebero-diary/10_september) - Data Analysis Report (DPI)
 
 [11th September](https://amrinder-cs.github.io/nebero-diary/11_september) - Creating an autoinstall shell script (DPI)
+[12th September](https://amrinder-cs.github.io/nebero-diary/12_september) - Reading Configuration from JSON in C++
 
-[12th September](https://amrinder-cs.github.io/nebero-diary/12_september) - TODO
+[13th September](https://amrinder-cs.github.io/nebero-diary/13_september) - Automating Dependency Installation for Netify
 
-[13th September](https://amrinder-cs.github.io/nebero-diary/13_september) - TODO
+[16th September](https://amrinder-cs.github.io/nebero-diary/16_september) - Creating a Makefile for Netify
 
-[16th September](https://amrinder-cs.github.io/nebero-diary/16_september) - TODO
+[17th September](https://amrinder-cs.github.io/nebero-diary/17_september) - Fixing DatabaseManager Bug and Updating Methods
 
-[17th September](https://amrinder-cs.github.io/nebero-diary/17_september) - TODO I have 
-
-[18th September](https://amrinder-cs.github.io/nebero-diary/18_september) - TODO
+[18th September](https://amrinder-cs.github.io/nebero-diary/18_september) - Updating Makefile and README for Compatibility
 
 [19th September](https://amrinder-cs.github.io/nebero-diary/19_september) - TODO
 
